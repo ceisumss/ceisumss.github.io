@@ -53,7 +53,7 @@ Version: 2.2
 	 * COUNTDOWN
 	 */
 	setInterval(function() {
-		var target = new Date("Oct 16 2017 21:15:00 GMT+0200"); //replace with YOUR DATE
+		var target = new Date("Oct 16 2017 21:15:00 GMT-0400"); //replace with YOUR DATE
 		//var target = new Date("Feb 17 2014 21:15:00 GMT-0600"); //replace with YOUR DATE
 		var now = new Date();
 		var difference = Math.floor((target.getTime() - now.getTime()) / 1000);
